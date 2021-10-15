@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>La campiña</title>
+    <script src="carrito.js"></script>
+</head>
+<body = onclick="borrar();">
+
+    <header class="header">
+
+        <img src="img/un-pan.png" alt="">
+        <h1>Bienvenidos a la panadería la campiña</h1>
+
+        <input id="carrito" type="text" value="0">
+        <!-- <img class="carrito" id="carrito2" src="img/carrito.png"> -->
+           
+    </header  >
+
+    <div class="slider">
+        <ul>
+            <li><img src="img/pan1.jpg" alt=""></li>
+            <li><img src="img/pan2.jpg" alt=""></li>
+        </ul>
+    </div>
+    <main >
+        <h1>Tienda</h1>a
+        <td id="nuevo0">
+            <div class="divMainstyles">
+                <h2>Pan Rollo</h2>
+                <img id = "img" src="img/pan_rollo_1.jpg" onclick="ima1();">
+                <p>El precio por unidad es:</p>
+                <h1><center id="precio0">200</center></h1>
+                <button onclick="car0();" >Agregar al carrito</button>
+            </div>
+        </td>
+        
+        <div class="divMainstyles">
+            <h2>Pan Blandito</h2>
+            <img id = "img" src="img/Pan-blandito.jpg" onclick="ima1();">
+            <p>El precio por unidad es:</p>
+            <h1><center id="precio1">200</center></h1>
+            <button onclick="car1();">Agregar al carrito</button>
+        </div>
+
+        <div class="divMainstyles">
+            <h2>Pan Costeño</h2>
+            <img id = "img" src="img/panCosteño.jpg" onclick="ima1();">
+            <p>El precio por unidad es:</p>
+            <h1><center id="precio2">200</center></h1>
+            <button onclick="car2();">Agregar al carrito</button>
+        </div>
+
+        <div class="divMainstyles">
+            <h2>Pan Galleta</h2>
+            <img id = "img" src="img/panGalleta.jpg" onclick="ima1();">
+            <p>El precio por unidad es:</p>
+            <h1><center id="precio3">1500</center></h1>
+            <button onclick="car3();">Agregar al carrito</button>
+        </div>
+
+        <div class="divMainstyles">
+            <h2>Galleta</h2>
+            <img id = "img" src="img/cookie.jpg" onclick="ima1();">
+            <p>El precio por unidad es:</p>
+            <h1><center id="precio4">700</center></h1>
+            <button onclick="car4();" >Agregar al carrito</button>
+        </div>
+    </main>
+    <button id="btn_pagar" onclick="pagar()">Ir al carrito</button>
+</body>
+</html>

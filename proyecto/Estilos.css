@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('mamadisima.png');
+}
+
+.mini{
+	width: 500px;
+	background: #0153b1;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 50px;
+	font-family: 'Arial';
+	color: white;
+	box-shadow: 7px 13px 37px black;
+}
+
+.mini h4{
+	font-size: 22px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.control{
+	width: 100%;
+	background: #ffffff;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid grey;
+	font-family: 'Arial';
+	font-size: 18px;
+}
+.mini p{
+	height: 40px;
+	text-align: center;
+	font-size: 18px; 
+	line-height: 40px;
+}
+
+.mini a{
+	color: white;
+	text-decoration: none;
+}
+
+.mini a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.mini .boton{
+	margin-left: 25%;
+	width: 50%;
+	height: 40px;
+	background-color: #00ff22c5;
+	border: none;
+	color: white;
+	font-size: 20px;
+	font-family:'Times New Roman', Times, serif;
+}
+
+.mini .boton1{
+	width: 40%;
+	background-color: #CB0669;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 20px;
+	font-size: 16px;
+	float: left;
+	margin-top: 30px;
+
+}
+
+.mini .boton2{
+	width: 40%;
+	background-color: #CB0669;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 20px;
+	font-size: 16px;
+	float: right;
+	margin-top: 30px;
+}
+
+.mini .boton3{
+	width: 40%;
+	background-color: #CB0669;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 20px;
+	font-size: 16px;
+	float: left;
+	margin-top: 0px;
+
+}
+
+.mini .boton4{
+	width: 40%;
+	background-color: #CB0669;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 20px;
+	font-size: 16px;
+	float: right;
+	margin-top: 0px;
+}
+
+
+
+
+
